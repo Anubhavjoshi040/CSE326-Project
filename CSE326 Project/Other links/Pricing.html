@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Car Rental</title>
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	 <style>
+      body {
+      background-color: #929d9e;
+      }
+    </style>
+
+</head>
+<body>
+
+
+
+	<!-- Navbar -->
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<div class="container">	
+		<ul class="navbar-header">
+			<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.wnjLP9BDOsGe0xNuZEw03gHaFP%26pid%3DApi&f=1" width="100" height="100" alt="logo" class="rounded" onclick="location.href='Car_Rental.html'">
+			<a href="Car_Rental.html" class="navbar-brand" >CAR RENTAL</a>
+		</ul>
+		<ul class="nav navbar-nav">
+			<li>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#exampleModalScrollable" style="margin: 20px">
+  About
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalScrollableTitle">About</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+
+Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+
+Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+
+Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+
+Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </li>
+      <li>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#exampleModalScrollable" style="margin: 20px">
+  Contact
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalScrollableTitle">Contact</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         Mobile No. ->> 098403XXXXX
+        
+        Telephone No. ->> 2349XXX
+
+        Fax No. ->> 2934XXX
+
+        Email ->> carrental@gmail.com
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </li>
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+			<!-- <li><a href="#">Sign Up</a></li>
+			<li><a href="#">Log In</a></li> -->
+
+			<form class="form-inline">
+    <button class="btn btn-outline-primary" type="button" onclick="location.href='Sign_up.html'" style="margin: 20px">Sign Up</button>
+    <button class="btn btn-outline-success" type="button" onclick="location.href='Login.html'" style="margin: 20px">Log In</button>
+  </form>
+
+		</ul>
+	</div>	
+	</nav>
+
+	<!-- Default Navbar -->
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="Car_Rental.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Pricing.html">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Popular_locations.html">Popular Locations</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Manage Booking
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="Reschedule.html">Book Now</a>
+          <a class="dropdown-item" href="Cancel.html">Cancel Booking</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://www.google.com">Compare On Google</a>
+        </div>
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+	<!-- Jumbotron -->
+
+<!-- 	<div class="jumbotron jumbotron-fluid" style="background-color: #7f8688">
+  <div class="container">
+    <h1 class="display-4">Car Rental</h1>
+    <p class="lead">This is the place where you can find the best car for your situation...</p>
+  </div>
+</div>
+ -->
+
+
+<!-- Card -->
+<!-- <div class="container">
+<div class="card" style="width: 18rem; margin: 20px">
+  <img src="https://images.pexels.com/photos/1974520/pexels-photo-1974520.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Classic Covertible</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Rent Now</a>
+  </div>
+</div>
+</div>
+ -->
+
+ <!-- Card -->
+
+<div class="container">
+ <div class="card-deck" style="margin-top: 20px">
+  <div class="card">
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.QSGhabQqVNK0LumPs9T00AHaE6%26pid%3DApi&f=1" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Hatchback</h5>
+      <p class="card-text">Starting From ₹10/km
+      Terms And Conditons Apply*</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 1 week ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FeAG97EM6Xe0%2Fmaxresdefault.jpg&f=1&nofb=1" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Sedan</h5>
+      <p class="card-text">Starting From ₹15/km
+      Terms And Conditons Apply*</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 1 week ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.crazypundit.com%2Fwp-content%2Fuploads%2F2014%2F01%2FSUV-Mahindra-XUV-500.jpg&f=1&nofb=1" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">SUVs</h5>
+      <p class="card-text">Starting From ₹18/km
+      Terms And Conditons Apply*</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 1 week ago</small>
+    </div>
+  </div>
+</div>
+
+<div class="card-deck" style="margin-top: 20px">
+  <div class="card">
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftractorsinfo.com%2Fwp-content%2Fuploads%2F2017%2F02%2FForce-Traveller-4020.jpg&f=1&nofb=1" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Mini Vans</h5>
+      <p class="card-text">Starting From ₹18/km
+      Terms And Conditons Apply*</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 1 week ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.rajasthantourplanner.com%2Fblog%2Fwp-content%2Fuploads%2F2017%2F06%2Fmini-coach.jpg&f=1&nofb=1" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Mini Bus</h5>
+      <p class="card-text">Starting From ₹20/km
+      Terms And Conditons Apply*</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 1 week ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmoneyinc.com%2Fwp-content%2Fuploads%2F2017%2F10%2FAudi-S8-750x406.jpg&f=1&nofb=1" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Luxury Sedans</h5>
+      <p class="card-text">Starting From ₹30/km
+      Terms And Conditons Apply*</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 1 week ago</small>
+    </div>
+  </div>
+</div>
+
+<div class="card-deck" style="margin-top: 20px; margin-bottom: 10px">
+  <div class="card">
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FBmUkpAHCOk8%2Fmaxresdefault.jpg&f=1&nofb=1" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Luxury SUVs</h5>
+      <p class="card-text">Starting From ₹40/km
+      Terms And Conditons Apply*</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 1 week ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.extravaganzi.com%2Fwp-content%2Fuploads%2F2011%2F06%2FChevrolet-Camaro-Convertible-2.jpg&f=1&nofb=1" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Convertibles</h5>
+      <p class="card-text">Starting From ₹35/km
+      Terms And Conditons Apply*</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 1 week ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Frq6M3imPgW4%2Fmaxresdefault.jpg&f=1&nofb=1" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Vintage</h5>
+      <p class="card-text">Starting From ₹40/km
+      Terms And Conditons Apply*</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>

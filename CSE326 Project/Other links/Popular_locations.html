@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Car Rental</title>
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+   <style>
+      body {
+      background-color: #929d9e;
+      }
+    </style>
+
+</head>
+<body>
+
+
+
+  <!-- Navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container"> 
+    <ul class="navbar-header">
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.wnjLP9BDOsGe0xNuZEw03gHaFP%26pid%3DApi&f=1" width="100" height="100" alt="..." class="rounded" onclick="location.href='Car_Rental.html'">
+      <a href="Car_Rental.html" class="navbar-brand" >CAR RENTAL</a>
+    </ul>
+    <ul class="nav navbar-nav">
+      <li>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#exampleModalScrollable" style="margin: 20px">
+  About
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalScrollableTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+
+Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+
+Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+
+Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+
+Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </li>
+      <li>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#exampleModalScrollable" style="margin: 20px">
+  Contact
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalScrollableTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Mobile No. ->> 098403XXXXX
+        
+        Telephone No. ->> 2349XXX
+
+        Fax No. ->> 2934XXX
+
+        Email ->> carrental@gmail.com
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <!-- <li><a href="#">Sign Up</a></li>
+      <li><a href="#">Log In</a></li> -->
+
+      <form class="form-inline">
+    <button class="btn btn-outline-primary" type="button" onclick="location.href='Sign_up.html'" style="margin: 20px">Sign Up</button>
+    <button class="btn btn-outline-success" type="button" onclick="location.href='Login.html'" style="margin: 20px">Log In</button>
+  </form>
+
+    </ul>
+  </div>  
+  </nav>
+
+  <!-- Default Navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="Car_Rental.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Pricing.html">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Popular_locations.html">Popular Locations</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Manage Booking
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="Reschedule.html">Book Now</a>
+          <a class="dropdown-item" href="Cancel.html">Cancel Booking</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://www.google.com">Compare On Google</a>
+        </div>
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<!-- Card -->
+<div class="container">
+<div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card">
+      <img src="https://images.pexels.com/photos/789750/pexels-photo-789750.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">New Delhi</h5>
+        <p class="card-text">New Delhi is an urban district located in the city of Delhi. New Delhi serves as the capital of India and the seat of all three branches of the Government of India.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="https://images.pexels.com/photos/3581369/pexels-photo-3581369.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500https://images.pexels.com/photos/2480956/pexels-photo-2480956.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Jaipur</h5>
+        <p class="card-text">Jaipur is the capital and the largest city of the Indian state of Rajasthan. Jaipur is also known as the Pink City, due to the dominant color scheme of its buildings.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="https://images.pexels.com/photos/2480956/pexels-photo-2480956.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mumbai</h5>
+        <p class="card-text">Mumbai, formerly Bombay, is big. It’s full of dreamers and hard-labourers, starlets and stray dogs and exotic birds, artists and servants, fisherfolk and crorepatis (millionaires), and lots and lots of people..</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.holidify.com%2Fimages%2Fcmsuploads%2Fcompressed%2Fvidanasoudha_20180226135018.jpg&f=1&nofb=1" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Bangluru</h5>
+        <p class="card-text">Bangalore, officially known as Bengaluru, is the capital of the Indian state of Karnataka. It has a population of over ten million, making it a megacity and the third-most populous city and fifth-most populous urban agglomeration in India.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card">
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.whatsuplife.in%2Fkolkata%2Fblog%2Fwp-content%2Fuploads%2F2018%2F02%2Fkolkata-1.jpg&f=1&nofb=1" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Kolkata</h5>
+        <p class="card-text">Kolkata is known for its literary, artistic, and revolutionary heritage; as the former capital of India, it was the birth place of mordern indian literary nad artistic thought. Kolkata has been called the "City of Furious, Creative Energy" as well as the "Cultural capital of India".</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-PcW58mUuM3M%2FUVB0AVZJJ1I%2FAAAAAAAAfoU%2FTjXL36jSM9I%2Fs1600%2FChennai%2BMadras%2BIndia%2B9.jpg&f=1&nofb=1" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Chennai</h5>
+        <p class="card-text">Chennai, also known as Madras, is the capital of the Indian state of Tamil Nadu. Located on the Coromandel Coast off the Bay of Bengal, it is the biggest cultural, economic and educational centre of south India. According to the 2011 Indian census, it is the sixth-most populous city and fourth-most populous urban agglomeration in India.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.theculturetrip.com%2Fwp-content%2Fuploads%2F2016%2F06%2F24498998325_f451c67aae_o.jpg&f=1&nofb=1" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Hyderabad</h5>
+        <p class="card-text">Hyderabad is the capital and largest city of the Indian state of Telangana and de jure capital of Andhra Pradesh. Occupying 650 square kilometres along the banks of the Musi River, located on the Deccan Plateau in the northern part of South India.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F2%2F21%2FDARBAR_SAHIB.jpg%2F1200px-DARBAR_SAHIB.jpg&f=1&nofb=1" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Amritsar</h5>
+        <p class="card-text">Amritsar, historically also known as Rāmdāspur and colloquially as Ambarsar, is a city in northwestern India which is the administrative headquarters of the Amritsar district and is located in the Majha region of the Indian state of Punjab. s</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>

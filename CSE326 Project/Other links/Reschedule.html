@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Car Rental</title>
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+   <style>
+      body {
+      background-color: #929d9e;
+      }
+    </style>
+
+</head>
+<body>
+
+
+
+  <!-- Navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container"> 
+    <ul class="navbar-header">
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.wnjLP9BDOsGe0xNuZEw03gHaFP%26pid%3DApi&f=1" width="100" height="100" alt="..." class="rounded" onclick="location.href='Car_Rental.html'">
+      <a href="Car_Rental.html" class="navbar-brand" >CAR RENTAL</a>
+    </ul>
+    <ul class="nav navbar-nav">
+      <!-- <li><a href="#" style="margin: 10px">About</a></li> -->
+      <li>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#exampleModalScrollable" style="margin: 20px">
+  About
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalScrollableTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </li>
+      <li>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#exampleModalScrollable" style="margin: 20px">
+  Contact
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalScrollableTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <!-- <li><a href="#">Sign Up</a></li>
+      <li><a href="#">Log In</a></li> -->
+
+      <form class="form-inline">
+    <button class="btn btn-outline-primary" type="button" onclick="location.href='Sign_up.html'" style="margin: 20px">Sign Up</button>
+    <button class="btn btn-outline-success" type="button" onclick="location.href='Login.html'" style="margin: 20px">Log In</button>
+  </form>
+
+    </ul>
+  </div>  
+  </nav>
+
+  <!-- Default Navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="Car_Rental.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Pricing.html">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Popular_locations.html">Popular Locations</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Manage Booking
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="Reschedule.html">Book Now</a>
+          <a class="dropdown-item" href="Cancel.html">Cancel Booking</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://www.google.com">Compare On Google</a>
+        </div>
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<!-- Booking Form -->
+<div class="container">
+<div class="input-group">
+  <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon" style="margin: 20px">
+    <option selected>Choose Starting Location</option>
+    <option value="1">Delhi</option>
+    <option value="2">Mumbai</option>
+    <option value="3">Jaipur</option>
+    <option value="4">Kolkata</option>
+    <option value="5">Hyderabad</option>
+    <option value="6">Bengluru</option>
+    <option value="7">Chennai</option>
+    <option value="8">Amritsar</option>
+  </select>
+  
+</div>
+
+<div class="input-group">
+  <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon" style="margin: 20px">
+    <option selected>Choose Destination</option>
+    <option value="1">Delhi</option>
+    <option value="2">Mumbai</option>
+    <option value="3">Jaipur</option>
+    <option value="4">Kolkata</option>
+    <option value="5">Hyderabad</option>
+    <option value="6">Bengluru</option>
+    <option value="7">Chennai</option>
+    <option value="8">Amritsar</option>
+  </select>
+  
+</div>
+
+<div class="input-group">
+  <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon" style="margin: 20px">
+    <option selected>Choose Vehicle Type</option>
+    <option value="1">Hatchback</option>
+    <option value="2">Sedan</option>
+    <option value="3">SUVs</option>
+    <option value="4">Mini Van</option>
+    <option value="5">Mini Bus</option>
+    <option value="6">Luxury Sedan</option>
+    <option value="7">Luxury SUVs</option>
+    <option value="8">Convertible</option>
+    <option value="9">Vintage</option>
+  </select>
+  </div>
+
+<form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Date Of Journey</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="DD/MM/YYYY" style="margin-left: 20px" style="margin-right: 20px">
+  </div>
+</form>
+  
+</div>
+</div>
+
+<form>
+  <div class="container">
+  <div class="form-group row">
+    <label for="inputEmail3" class="col-sm-2 col-form-label" style="margin-top: 20px">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" style="margin-top: 20px">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3">
+    </div>
+  </div>
+  
+  <div class="form-group row">
+    <div class="col-sm-2">Confirm</div>
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck1">
+        <label class="form-check-label" for="gridCheck1">
+          Agree And Continue
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-sm-10">
+      <button type="submit" class="btn btn-primary">Book</button>
+    </div>
+  </div>
+</div>
+</form>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
